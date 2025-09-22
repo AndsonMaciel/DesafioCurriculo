@@ -1,8 +1,45 @@
 body{
-    background-color:beige;
+    width: 80%;
+    max-width: 900px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
 }
 
 h1{
     text-align: center;
+    color: #000074;
+}
+
+.dadosPessoais{
+    text-align: center;
+}
+ul{
+    padding: 0px;
+}
+
+li{
+    margin-bottom: 10px; 
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+    background-color: #ccc;
+    color: #000074;
+    padding: 10px;
+    border-bottom: 3px solid #000074;
+}
+
+.subtitulo{
+    font-weight: bold;
+    color: black;
+}
+
+strong{
+    color: #000074;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
 }
