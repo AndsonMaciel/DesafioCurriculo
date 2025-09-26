@@ -12,14 +12,16 @@ h1{
 
 .dadosPessoais{
     text-align: center;
+    list-style-type: none;
 }
+
 ul{
-    padding: 0px;
+    padding: 0;
 }
 
 li{
     margin-bottom: 10px; 
-    list-style: none;
+    list-style-position: inside;
 }
 
 h2{
@@ -28,18 +30,14 @@ h2{
     color: #000074;
     padding: 10px;
     border-bottom: 3px solid #000074;
+    margin-top: 30px;
+    margin-bottom: 12px;
 }
 
-.subtitulo{
-    font-weight: bold;
-    color: black;
-}
-
-strong{
-    color: #000074;
+a{
+   text-decoration: none; 
 }
 
 a:hover {
-    color: red;
     text-decoration: underline;
 }
